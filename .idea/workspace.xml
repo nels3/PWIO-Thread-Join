@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59a9a5d7-4940-4836-b94d-ea93a3961fa7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nels/InitFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nels/InitFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nels/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nels/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nels/MyRegularComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nels/MyRegularComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nels/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nels/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nels/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nels/MainApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nels/MyRegularComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nels/MyRegularComponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nels/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nels/controller/MainController.class" afterDir="false" />
@@ -39,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nels/MyRegularComponent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -327,7 +323,7 @@
       <workItem from="1552988632374" duration="5707000" />
       <workItem from="1553023541886" duration="1765000" />
       <workItem from="1554198140606" duration="4243000" />
-      <workItem from="1554272677602" duration="6774000" />
+      <workItem from="1554272677602" duration="7176000" />
     </task>
     <task id="LOCAL-00001" summary="Second Version">
       <created>1553023631598</created>
@@ -364,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554198401105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Nowy rysunek">
+      <created>1554283385589</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554283385589</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103842000" />
+    <option name="totallyTimeSpent" value="104244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,7 +461,8 @@
     <MESSAGE value="Second Version" />
     <MESSAGE value="Trzecia wersja" />
     <MESSAGE value="Usunięcie projektu Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usunięcie projektu Maven" />
+    <MESSAGE value="Nowy rysunek" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nowy rysunek" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -610,7 +614,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nels/MyRegularComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
