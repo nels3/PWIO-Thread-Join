@@ -1,7 +1,5 @@
 package com.nels;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.*;
 
 /**
@@ -22,12 +20,12 @@ public class InitFrame {
         //start button
         JButton b=new JButton("Start");
         b.setBounds(110,130,100, 30);
-        //labels for data
         JLabel label1 = new JLabel();
         JLabel label2 = new JLabel();
         JLabel label3 = new JLabel();
         label1.setText("Nb of columns :");
         label1.setBounds(10, 10, 100, 30);
+        //labels for data
         label2.setText("Nb of rows :");
         label2.setBounds(10, 50, 100, 30);
         label3.setText("Width :");
@@ -61,14 +59,11 @@ public class InitFrame {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //action listener
-        b.addActionListener(new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent arg0) {
+        b.addActionListener(e->{
             start = true;
             number_of_rows = Integer.parseInt(textfield_rows.getText());
             number_of_cols = Integer.parseInt(textfield_cols.getText());
             width = Integer.parseInt(textfield_width.getText());
-        }
         });
     }
 
@@ -97,6 +92,4 @@ public class InitFrame {
         this.f.add(label_multi);
         this.f.add(label_one);
     }
-
 }
-
