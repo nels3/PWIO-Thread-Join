@@ -6,15 +6,11 @@ import javax.swing.*;
  * Class that is in carge of paining part of image from regular expression
  */
 public class MyRegularComponent extends JComponent {
-    private int thread_id;
-    //width of one small image
     private int width;
 
-    public MyRegularComponent(int id, int width) {
-        thread_id = id;
+    public MyRegularComponent(int width) {
         this.width = width;
         setPreferredSize(new Dimension(width, width));
-
     }
     @Override
     public void paintComponent(Graphics g) {
@@ -22,8 +18,8 @@ public class MyRegularComponent extends JComponent {
         g.setColor(Color.white);
         g.fillRect(0, 0, width, width);
         g.setColor(Color.black);
-        if (thread_id!=-1) {
-            g.drawString("Thread " + thread_id, width / 3, width / 2);
+        if (true) {
+           // g.drawString("Thread ", width / 3, width / 2);
 //            for(int i=100;i<100000;i++){
 //            g.drawLine(5, 5, i/1000,i/1000);
 //            g.drawLine(20,50,70,i/59);
@@ -46,8 +42,6 @@ public class MyRegularComponent extends JComponent {
                 g.drawLine(width/4, i*(width/4), width / 2, ((width / 4)+i*(width/4)));
                 g.drawLine(width / 2, ((width / 4)+i*(width/4)), (width * 3) / 4, i*(width/4));
                 g.drawLine((width * 3) / 4, i*(width/4), width, ((width / 4)+i*(width/4)));
-
-
             }
             g.setColor(Color.red);
             for(int x=0;x<5000;x++){
@@ -62,11 +56,8 @@ public class MyRegularComponent extends JComponent {
                     if(o>=0) {
                         g.fillRect(i * (width / 18), ((width * o) / 18), width / 18, width / 18);
                     }
-
                 }
             }
-
+        }
     }
-    }
-
 }
