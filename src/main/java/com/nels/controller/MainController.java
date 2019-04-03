@@ -2,6 +2,7 @@ package com.nels.controller;
 
 import com.nels.MyRegularComponent;
 import com.nels.SideThread;
+import java.util.concurrent.*;
 
 import javax.swing.*;
 
@@ -32,21 +33,9 @@ public class MainController {
     public void startMultiThreading(){
         System.out.print("\nStarted multithreading\n");
 
-        SideThread[] thread = new SideThread[number_of_threads];
-        int k = 0;
-        for (int i=0; i<number_of_columns; ++i){
-            for (int j=0; j<number_of_rows; ++j) {
-                thread[k] = new SideThread(width, frame_multi_tread);
-                thread[k].start();
-                k +=1;
-            }
-        }
-        try {
-            for (int i = 0; i < number_of_threads; ++i) {
-                thread[i].join();
-            }
-        }
-        catch (InterruptedException ie){}
+
+        ForkJoinPool pool = new ForkJoinPool();
+        pool.invoke(new SideThread(width,frame_multi_tread,number_of_threads));
 
         System.out.print("\nJoined threads\n");
     }
@@ -58,7 +47,7 @@ public class MainController {
         System.out.print("\nStarted one thread\n");
 
         for (int i=0; i<number_of_threads; ++i) {
-            MyRegularComponent MRC = new MyRegularComponent(-1, width);
+            MyRegularComponent MRC = new MyRegularComponent( width);
             frame_one_tread.add(MRC);
         }
 

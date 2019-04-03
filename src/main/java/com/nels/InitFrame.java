@@ -8,8 +8,8 @@ import javax.swing.*;
  * Init JFrame that user uses when want to start program
  */
 public class InitFrame {
-    private int number_of_rows = 3;
-    private int number_of_cols = 3;
+    private int number_of_rows =2;
+    private int number_of_cols = 2;
     private int width = 200;
     private boolean start = false;
     private long period_multi_thread;

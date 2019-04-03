@@ -10,10 +10,10 @@ public class MyRegularComponent extends JComponent {
     //width of one small image
     private int width;
 
-    public MyRegularComponent(int id, int width) {
-        thread_id = id;
+    public MyRegularComponent(int width) {
         this.width = width;
         setPreferredSize(new Dimension(width, width));
+        System.out.print("3\n");
 
     }
     @Override
@@ -22,9 +22,6 @@ public class MyRegularComponent extends JComponent {
         g.setColor(Color.green);
         g.fillRect(0, 0, width, width);
         g.setColor(Color.black);
-        if (thread_id!=-1) {
-            g.drawString("Thread " + thread_id, width / 3, width / 2);
-        }
     }
 
 }
