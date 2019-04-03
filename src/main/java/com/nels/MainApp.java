@@ -58,6 +58,7 @@ public class MainApp {
         MC.startOneThread();
         long one_thread_stop_time= System.currentTimeMillis();
 
+
         InitFrame.setResults(multi_thread_stop_time-multi_thread_start_time,one_thread_stop_time-one_thread_start_time);
 
         frame_multi_thread.setVisible(true);
