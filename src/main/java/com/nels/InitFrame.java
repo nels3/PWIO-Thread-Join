@@ -10,7 +10,7 @@ import javax.swing.*;
 public class InitFrame {
     private int number_of_rows = 3;
     private int number_of_cols = 3;
-    private int width = 200;
+    private int width = 2;
     private boolean start = false;
     private long period_multi_thread;
     private long period_one_thread;

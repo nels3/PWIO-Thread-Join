@@ -58,7 +58,7 @@ public class MainController {
         System.out.print("\nStarted one thread\n");
 
         for (int i=0; i<number_of_threads; ++i) {
-            MyRegularComponent MRC = new MyRegularComponent(-1, width);
+            MyRegularComponent MRC = new MyRegularComponent(1, width);
             frame_one_tread.add(MRC);
         }
 
