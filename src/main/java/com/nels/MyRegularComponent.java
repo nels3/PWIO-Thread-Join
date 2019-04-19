@@ -19,16 +19,6 @@ public class MyRegularComponent extends JComponent {
         g.fillRect(0, 0, width, width);
         g.setColor(Color.black);
         if (true) {
-           // g.drawString("Thread ", width / 3, width / 2);
-//            for(int i=100;i<100000;i++){
-//            g.drawLine(5, 5, i/1000,i/1000);
-//            g.drawLine(20,50,70,i/59);
-//            g.drawLine(100,30,33,i/127);
-//            }
-//            g.setColor(Color.white);
-//            for(int i=0;i<1000;i++){
-//                g.drawLine(width-50,10+(i*5),width-10,10+(i*5));
-//            }
 
             for(int i=0;i<4;i++){
                 g.drawLine(0, i*(width/4), width / 4, ((width / 4)+i*(width/4)));

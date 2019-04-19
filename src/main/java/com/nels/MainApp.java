@@ -21,7 +21,7 @@ public class MainApp {
         JFrame.setDefaultLookAndFeelDecorated(true);
 
         //create buttons for start threading
-        JFrame start_frame = new JFrame("Projekt 2 - PWIO");
+        JFrame start_frame = new JFrame("Projekt 2 - Fork Join");
 
         InitFrame InitFrame = new InitFrame();
         while(!InitFrame.getStart()) {
@@ -32,7 +32,6 @@ public class MainApp {
         number_of_rows = InitFrame.getRows();
         number_of_columns = InitFrame.getColumns();
         width = InitFrame.getWidth();
-        System.out.println("mam: " + number_of_columns+number_of_rows+width);
 
         // create a basic JFrame for multi thread image and one thread image
         JFrame frame_multi_thread = new JFrame("Multi threads");

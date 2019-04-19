@@ -6,9 +6,9 @@ import javax.swing.*;
  * Init JFrame that user uses when want to start program
  */
 public class InitFrame {
-    private int number_of_rows = 3;
-    private int number_of_cols = 3;
-    private int width = 200;
+    private int number_of_rows = 2;
+    private int number_of_cols = 2;
+    private int width = 100;
     private boolean start = false;
     private long period_multi_thread;
     private long period_one_thread;
@@ -23,10 +23,10 @@ public class InitFrame {
         JLabel label1 = new JLabel();
         JLabel label2 = new JLabel();
         JLabel label3 = new JLabel();
-        label1.setText("Nb of columns :");
+        label1.setText("Columns :");
         label1.setBounds(10, 10, 100, 30);
         //labels for data
-        label2.setText("Nb of rows :");
+        label2.setText("Rows :");
         label2.setBounds(10, 50, 100, 30);
         label3.setText("Width :");
         label3.setBounds(10, 90, 100, 30);

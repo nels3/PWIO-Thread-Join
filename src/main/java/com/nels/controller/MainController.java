@@ -11,16 +11,12 @@ import java.util.concurrent.ForkJoinPool;
  */
 public class MainController {
 
-    private int number_of_rows;
-    private int number_of_columns;
     private int number_of_threads;
     private int width;
     private JFrame frame_multi_tread;
     private JFrame frame_one_tread;
 
     public MainController(int rows, int columns, int width, JFrame frame_multi_tread, JFrame frame_one_tread){
-        this.number_of_rows = rows;
-        this.number_of_columns = columns;
         this.number_of_threads = rows*columns;
         this.width = width;
         this.frame_multi_tread = frame_multi_tread;
